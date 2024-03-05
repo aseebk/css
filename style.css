@@ -1,0 +1,241 @@
+*{
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Open Sans', sans-serif;
+        scroll-behavior: smooth;
+        box-sizing: border-box;
+    }
+.h1{
+    text-align: center;
+    color:rebeccapurple;
+    font-size: 50px;
+}
+.ron{
+    text-align: center;
+    color: red;
+    background-color: aqua;
+    background-image: url("https://m.media-amazon.com/images/I/71Cww348R-L._AC_UF1000,1000_QL80_.jpg");
+}
+.ew{
+    padding: 2rem;
+    font-size: 58%;
+    color: rgb(219, 45, 132);
+}
+.center{
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3, h4:hover {
+    color: red;
+    padding-left: 2rem;
+   
+  }
+
+.one {
+    border-style: solid;
+    border-width: 5px;
+    padding: 1rem;
+  }
+  
+  .two {
+    border-style: solid;
+    border-width: medium;
+    margin-top: 2%;
+  }
+  
+  .three {
+    border-style: dotted;
+    border-width: 2px;
+    margin-top: 2%;
+
+
+  }
+  
+  .four {
+    border-style: dotted;
+    border-width: thick;
+    margin-top: 1rem;
+
+  }
+  
+  .five {
+    border-style: double;
+    border-width: 15px;
+    margin-top: 1rem;
+
+  }
+  
+  .six {
+    border-style: double;
+    border-width: thick;
+    margin-top: 1rem;
+
+  }
+  .normal {
+    border: 2px solid red;
+    padding: 5px;
+    margin-top: 1rem;
+  }
+  
+  .round1 {
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 1rem;
+
+  }
+  
+  .round2 {
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 1rem;
+
+  }
+  
+  .round3 {
+    border: 2px solid red;
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 1rem;
+
+  }
+
+  div {
+    border: 2px solid black;
+    margin: 35px 50px 75px 100px;
+    background-color: lightblue;
+  }
+  .wid {
+    max-width: 700px;
+    height: 100px;
+    background-color: powderblue;
+    text-align: center;
+    
+    
+
+  }
+.pad 
+    {
+        background-color: lightgrey;
+        width: 300px;
+        border: 15px solid green;
+        padding: 50px;
+        margin: 20px;
+        text-align: center;
+      }
+
+      .p1 {
+        border: 2px solid black;
+        outline: #1fb922 solid 10px;
+        margin: 20px;  
+        padding: 20px;
+        text-align: center;
+      }
+
+.text {
+    text-decoration: overline;
+    margin: 1rem;
+}
+.line {
+    text-decoration: line-through;
+    margin: 1rem;
+}
+.normal1 {
+    font-style: normal;
+    text-align: center;
+    margin: 1rem;
+  }
+  
+  .italic {
+    font-style: italic;
+    text-align: center;
+    margin: 1rem;
+  }
+  
+  .oblique {
+    font-style: oblique;
+    text-align: center;
+    margin: 1rem;
+  }
+
+  .link {
+    text-align: center;
+    margin: 1rem;
+  }
+
+  a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  .a {
+    list-style-type: circle;
+    margin: 1rem;
+    padding-left: 1rem;
+  }
+  
+  .b {
+    list-style-type: square;
+    margin: 1rem;
+    padding: 1rem;
+  }
+  
+  ol.c {
+    list-style-type: upper-roman;
+    margin: 1rem;
+    padding: 1rem;
+  }
+  
+  ol.d {
+    list-style-type: lower-alpha;
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .im{
+    background-image: url(https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/Thar/10745/1697697308167/front-left-side-47.jpg?imwidth=420&impolicy=resize);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 600px;
+    
+    
+  }
+  table, td, th {
+    border: 1px solid black;
+    margin: 1px;
+    width: 700px;
+    height: 50px;
+    text-align: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 1rem;
+  }
+  img {
+    float: right;
+    
+
+  }
+  .block-example {
+    display: block;
+    background-color: lightblue;
+    margin-bottom: 10px;
+}

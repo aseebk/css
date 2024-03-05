@@ -1,0 +1,130 @@
+CSS stands for Cascading Style Sheets
+---------------------------------------
+A CSS Syntax rule consists of a selector, property, and its value. The selector points to the HTML element where the CSS style is to be applied. The CSS property is separated by semicolons. It is a combination of the selector name followed by the property: value pair that is defined for the specific selector.
+CSS describes how HTML elements are to be displayed
+
+ Syntax
+ ----------
+      *selector { Property: value; }
+
+      Selector: Used to target and select specific HTML elements to apply styles to.
+      Property: Defines the specific aspect or characteristic of an element that you want to modify.
+      Value: Assigned setting or parameter for a given property, determining how the selected element should appear or behave.
+
+*CSS Selector
+--------------
+CSS selectors are used to select the content you want to style. Selectors are the part of CSS rule set. CSS selectors select HTML elements according to its id, class, type, attribute etc.
+        CSS Element Selector
+        CSS Id Selector
+        CSS Class Selector
+        CSS Universal Selector
+        CSS Group Selector
+
+*CSS Colors and Background
+---------------------------
+Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values.
+The background-color property specifies the background color of an element.
+The CSS background properties are used to add background effects for elements
+
+Opacity
+--------
+The opacity property specifies the opacity/transparency of an element. It can take a value from 0.0 - 1.0. The lower value, the more transparent
+
+CSS Border Style
+------------------
+The border-style property specifies what kind of border to display.
+      dotted - Defines a dotted border
+      dashed - Defines a dashed border
+      solid - Defines a solid border
+      double - Defines a double border
+       
+CSS Margins
+---------------
+The CSS margin properties are used to create space around elements, outside of any defined borders.
+
+With CSS, you have full control over the margins. There are properties for setting the margin for each side of an element (top, right, bottom, and left).
+
+CSS Padding
+--------------
+The CSS padding properties are used to generate space around an element's content, inside of any defined borders.
+
+With CSS, you have full control over the padding. There are properties for setting the padding for each side of an element (top, right, bottom, and left).
+
+CSS Height and width
+-----------------------
+The CSS height and width properties are used to set the height and width of an element.
+
+The CSS max-width property is used to set the maximum width of an element.
+
+CSS Box Model
+-------------------
+The CSS box model is essentially a box that wraps around every HTML element. It consists of: content, padding, borders and margins.
+    Content - The content of the box, where text and images appear
+    Padding - Clears an area around the content. The padding is transparent
+    Border - A border that goes around the padding and content
+    Margin - Clears an area outside the border. The margin is transparent
+
+Text decoration
+-----------------
+The text-decoration-line property is used to add a decoration line to text.
+
+text-decoration-line
+text-decoration-color
+text-decoration-style
+text-decoration-thickness
+text-decoration
+
+CSS Fonts
+-----------
+In CSS, we use the font-family property to specify the font of a text.
+
+Font Style
+The font-style property is mostly used to specify italic text.
+
+This property has three values:
+
+normal - The text is shown normally
+italic - The text is shown in italics
+oblique - The text is "leaning" (oblique is very similar to italic, but less supported)
+
+CSS links
+--------------
+In addition, links can be styled differently depending on what state they are in.
+
+The four links states are:
+
+a:link - a normal, unvisited link
+a:visited - a link the user has visited
+a:hover - a link when the user mouses over it
+a:active - a link the moment it is clicked
+
+CSS List
+----------
+In HTML, there are two main types of lists:
+
+unordered lists (<ul>) - the list items are marked with bullets
+ordered lists (<ol>) - the list items are marked with numbers or letters
+
+CSS Tables
+-------------
+To specify table borders in CSS, use the border property.
+
+Table Width and Height
+The width and height of a table are defined by the width and height properties
+
+
+CSS displayed
+--------------
+The display property is the most important CSS property for controlling layout.
+Every HTML element has a default display value, depending on what type of element it is. The default display value for most elements is block or inline.
+
+The display property is used to change the default display behavior of HTML elements.
+
+CSS float
+-----------
+
+The float property is used for positioning and formatting content e.g. let an image float left to the text in a container.
+
+The float property can have one of the following values:
+
+left - The element floats to the left of its container
