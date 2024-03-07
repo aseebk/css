@@ -1,0 +1,147 @@
+
+.container {
+    width: 300px;
+    margin: 20px auto; 
+    background-color: #f0f0f0;
+    padding: 1rem; 
+  }
+  
+  .box {
+    background-color: #3498db;
+    padding: 20px;
+    margin: 20px; 
+  }
+  .box9 {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    margin: 20px; 
+  }
+  .con {
+    position: relative; 
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+    margin: 50px auto;
+  }
+  
+  .relative-box {
+    position: relative; 
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .absolute-box {
+    position: absolute; 
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px;
+  }
+  .containe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    background-color: hsl(240, 22%, 43%); 
+  }
+  
+  .box1 {
+    background-color: hsl(120, 19%, 63%); 
+    color: hsl(0, 0%, 100%); 
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .rgb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: rgba(0, 0, 255, 0.3); 
+    margin-top: 10px;
+  }
+  
+  .al {
+    background-color: rgba(255, 0, 0, 0.5);
+    color: rgba(0, 255, 0, 0.7); 
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+
+  .outline {
+    margin-top: 10px;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+  }
+  
+  .h2{
+    border: 2px solid rgb(4, 134, 233); 
+  }
+  
+  .h3 {
+    outline: 2px dashed hsl(12, 91%, 48%);
+  }
+
+  .relative {
+    background-image: linear-gradient(
+      to left top,
+      rgb(222, 222, 223),
+      rgb(73, 62, 62)
+    );
+    color: white;
+    width: 10vw;
+    height: 10%;
+    padding-top: 2rem;
+    padding-left: 20ch;
+    padding-bottom: 10ex;
+    padding-right: 12em;
+    margin-top: 10vmin;
+    margin-bottom: 14vmax;
+  }
+  
+  .one {
+    background-image: linear-gradient(
+      to right top,
+      rgba(254, 116, 10, 0.564),
+      rgb(41, 133, 41)
+    );
+  
+    width: 300px;
+    height: 100px;
+    position: relative;
+    left: 10px;
+    top: 70px;
+    z-index: 2;
+  }
+  
+  .two {
+    background-image: linear-gradient(
+      to right top,
+      rgb(237, 225, 236),
+      rgb(34, 194, 34)
+    );
+    width: 300px;
+    height: 100px;
+    position: relative;
+    left: 20px;
+    top: 50px;
+    z-index: 1;
+  }
+  
+  .three {
+    background-image: linear-gradient(
+      to right top,
+      rgb(222, 82, 82),
+      rgb(15, 192, 246)
+    );
+    width: 300px;
+    height: 100px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+  }
+
+  
+  
